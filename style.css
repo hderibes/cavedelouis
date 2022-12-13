@@ -199,23 +199,51 @@ h5{
 }
 
 .contact{
+
   padding-bottom: 10px;
   margin-bottom: 50px;
   border-style: groove;
   border-color:rgb(109, 7, 26);
   border-radius: 10px;
-  height: 300px;
+  height: 500px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.moyen_de_contact{
+  text-align: center;
+  width: 30%;
+  height: 50%;
+  display: inline-block;
 }
 
 img.contactez_nous{
-  max-height: 50%;
+  max-height: 80%;
   width: auto;
-  float :left;
   margin:10px;
   border-radius: 15px;
+  z-index: 1;
 }
 
+.bouteille{
+  height: 300px;
+  margin-left :10%;
+  margin-right:10%;
+
+}
+
+.photo_bouteille{
+  height: 80%;
+  float: left;
+  margin:10px;
+  margin-right: 70px;
+  border-radius: 10px;
+
+}
+
+h6{
+  font-size: 20px ;
+}
 
 footer {
     height:350px;
