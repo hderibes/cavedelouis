@@ -225,6 +225,51 @@ img.contactez_nous{
   z-index: 1;
 }
 
+.type_de_vin_champagne, .type_de_vin_rouge, .type_de_vin_rose{
+  min-height : 400px;
+  background : white ;
+  border-style:solid;
+  border-width: thick;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+
+.type_de_vin_champagne{
+  border-color: gold;
+}
+.type_de_vin_rouge{
+  border-color: rgb(109, 7, 26);
+}
+.type_de_vin_rose{
+  border-color: rosybrown;
+}
+
+.type_de_vin_titre_champagne, .type_de_vin_titre_rouge, .type_de_vin_titre_rose{
+  display : block ;
+  position : relative ;
+  padding-left:20px;
+  padding-right:20px;
+  margin : -12px 0 0 30px ;
+  float : left ;
+  font-size : 30px ;
+  background : white ;
+  font-weight: 800;
+  translate:0 -15px;
+}
+
+.type_de_vin_titre_champagne{
+  color : gold ; 
+}
+.type_de_vin_titre_rose{
+  color : rosybrown ; 
+}.type_de_vin_titre_rouge{
+  color : rgb(109, 7, 26); 
+}
+
+
 .bouteille{
   height: 300px;
   margin-left :10%;
