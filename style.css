@@ -225,7 +225,7 @@ img.contactez_nous{
   z-index: 1;
 }
 
-.type_de_vin_champagne, .type_de_vin_rouge, .type_de_vin_rose{
+.type_de_vin_champagne, .type_de_vin_rouge, .type_de_vin_rose, .type_de_vin_blanc{
   min-height : 400px;
   background : white ;
   border-style:solid;
@@ -246,8 +246,11 @@ img.contactez_nous{
 .type_de_vin_rose{
   border-color: rosybrown;
 }
+.type_de_vin_blanc{
+  border-color: grey;
+}
 
-.type_de_vin_titre_champagne, .type_de_vin_titre_rouge, .type_de_vin_titre_rose{
+.type_de_vin_titre_champagne, .type_de_vin_titre_rouge, .type_de_vin_titre_rose, .type_de_vin_titre_blanc{
   display : block ;
   position : relative ;
   padding-left:20px;
@@ -262,6 +265,9 @@ img.contactez_nous{
 
 .type_de_vin_titre_champagne{
   color : gold ; 
+}
+.type_de_vin_titre_blanc{
+  color : grey ; 
 }
 .type_de_vin_titre_rose{
   color : rosybrown ; 
@@ -286,9 +292,11 @@ img.contactez_nous{
 
 }
 
+
 h6{
   font-size: 20px ;
 }
+
 
 footer {
     height:350px;
